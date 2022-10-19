@@ -148,8 +148,14 @@ div#racelapin img {
     font-size: larger;
 
 }
+div#photomdv {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
-div#alimentation>span {
+
+div#alimentation span {
     font-weight: bold;
     font-size: large;
     font-family: arial;
@@ -160,11 +166,44 @@ div#alimentation {
     font-size: large;
 }
 
+.small img{
+    height: 300px;
+}
+
+.small {
+     display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
 
 
+img#legume {
+    height: 800px;
+    width: 800px;
+    
+}
+
+div#liste {
+    display: flex;
+    justify-content: center;
+}
 
 img#imagerhea {
     height: 400px;
     width: 300px;
+}
+
+div#malapine span {
+    font-weight: bold;
+    font-size: large;
+    font-family: arial;
+}
+
+div#malapine {
+    font-size: large;
+    font-family: arial;
+    display: flex;
+    justify-content: space-around;
+
 }
