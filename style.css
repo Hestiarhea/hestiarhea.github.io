@@ -1,0 +1,170 @@
+body {
+    background-color: navajowhite;
+}
+
+img {
+    border-radius: 30px 30px 30px 30px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+div#caracteristique>div>span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+
+h1 {
+    font-family: lucida;
+    font-style: italic;
+    color: orange;
+    background-color: forestgreen;
+    padding: 50px;
+    text-align: center;
+
+
+}
+
+.title {
+    border: solid 10px;
+
+}
+
+h2 {
+    color: orangered;
+    background-color: lightblue;
+    font-family: lucida;
+    padding: 15px;
+    border: 5px solid orangered;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+div#sommaire li {
+    font-family: lucida;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+h3 {
+    color: brown;
+    background-color: tan;
+    font-family: lucida;
+    padding: 15px;
+    border: 5px solid brown;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+div#lesaviezvous p {
+    border-radius: 10px;
+    background-color: lightblue;
+    border: solid;
+    text-align: center;
+    font-family: arial;
+    font-size: larger;
+}
+
+.lsv {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lsv img {
+    width: 230px;
+    height: 230px;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    background-color: orange;
+}
+
+td {
+    background-color: skyblue;
+    vertical-align: top;
+}
+
+.table-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: disclosure-closed;
+}
+
+.categorie {
+    font-family: arial;
+    font-size: larger;
+    font-weight: bold;
+}
+
+div#racelapin img {
+    border-radius: 30px 30px 30px 30px;
+    height: 230px;
+    width: auto;
+}
+
+#racelapin {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: arial;
+    font-size: larger;
+
+}
+
+#racelapin>.carte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mdv img {
+    height: 400px;
+    width: 500px;
+}
+
+.mdv {
+    font-family: arial;
+    font-size: larger;
+
+}
+
+div#alimentation>span {
+    font-weight: bold;
+    font-size: large;
+    font-family: arial;
+}
+
+div#alimentation {
+    font-family: arial;
+    font-size: large;
+}
+
+
+
+
+
+img#imagerhea {
+    height: 400px;
+    width: 300px;
+}

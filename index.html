@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Les Lapins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Tout savoir sur les lapins</h1>
+        <figure>
+            <div><img
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgWFhUYGBgYGBkYGBkaGBgaGBwYGBoZGhkYGBgcITAlHB4rIRkYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrISs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQEGB//EADgQAAEDAgQEBAUDBAICAwAAAAEAAhEDIQQSMUEiUWFxBYGRoRMyscHwBkLRFFLh8WKSI6IVcoL/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIDBAX/xAAfEQADAQACAwEBAQAAAAAAAAAAARECEiEDMUFRE4H/2gAMAwEAAhEDEQA/APRsoLrqaL8ULgcF5IjRVrVdVLwoCpqFCwVrqMXS8IgQmYqrnlRrwrVBZMEG15lFkoLNUwVEAeCiUlU3UAK5zsBj4kKpfKHlKu1i1WNCMC6SqiUdlIlKrEFmR2KfARGiFpJkWAVmsUa5QuWxLELhK6ugKNFA9XLkNzF3MggrUF2qu0rhYpimUfogQmvhyufARCoHKrNphH+GuBioNAOYuBoTJYuGkiMKUYESAuspImVMY0HkCiNlUTAPENeZRnPIClICUdwXHKOKFmPKYY4oQaj0gpWigpQnAo7molOnK28lAFGmZTwaIQXuARGXC1lJEigYJVajVc2VHFWmhO0qaM1iB8WEWlUlGdL0CYyKapkVTVRGrXQkDE1RahtKLTKkJ17EFzE2bqjgliAaFYU1AlsRjQJAP8qNLNHA0blUc9o3WSa5Jk6IJe7c2GvZY1pI6Z8V9m66q3mqggrz7KxcbTdaFKQBzhC3R14p9NVrV1zUjRxBaYKf+KIW00ctZh1oVHOVTVVM6QDSqlyGayGyoikHaVcuQDUQvi3RyEeDlCZSrnrgeVcig5KiWzriuRQw2UgFCF1oKsxiw/w5MoWKzQuuUyFFgUu/RVpVVHtMKtOip6bGlnmSm2OEJNrFbPeErTKkrEzZWDbJinTlHbQSlRSEqVOUcUoRcgaoKgWllIUkDbSvdNObZCdUCux0pSRQtTaitCGWlUDyCkR1q5UXGPXHmU0hPF1YXn34xpeRYmNr33805jqshzgQdYk/glfOq3jQZWLnC0wSLa9tVl5p2x0j6AysAJJgn8KI4W2O8+X+ll4euHNDjtNjyMafm6abVm0i0fb7SvPTvA1GlB1jn/vyTYffUWGnNK5gbHTQx1EqzgLkHftrss0Wgz3ka3nTp1+ybw1XMBfv3Xn/ABHxEMcGCMxFmj86rV8MMNGaJ3vvuuubDnpJmgSqNciMAO658NbdPO12XDRCCWIvw4XWOUKBNYrsYoXXViCiFCwaFBTVRZGYZCYJTKuqudcR0ZMxt0ZtOyyn48NV2eJghY55+nGo02UwruYsb/5SE9hseCLpzvGvQppjZoSEWlh7JeniZTtB66LKYwCcMhPwl07iK4AWcMZJS3nJdDlNkIrQlH15FkvTxThMo55CjNeoBMrNOKiVMTVLgs00XCSSvP5ttK5LTNVuKBC0MBVE3XlG1CCn8NVOsrljz6tZjkz2VkN7WrAZ4i4K78fzK9n98m+SNxhCyvHcaG/+NpOZwkxqGm2u0/ZJs8VusxrzUeXnc+mw7jotY8mdKo3hcmBxjwGECTrBOgsvF4n9Pve1zycubSxmPW0r1vjVYNyjN87g0COfTeyU8QxJswHr/ATm2ndyHMLIa0OOgbr6W9063ENbrAn6lYeHq1ZJycPIx5iJRqeGqFxfl4TpJPqsbz+Gs6/Tcw+LbOvTy2t+apujXvfa3deVNGoBmAFr2Oyfp4xxAIZI3IifRc+Jvka1PwsPe944nE6k6aWC5UpvpOvcEEh2oj01VcBUe2XRDbWNueiP4u+WB2uUz1g2K0891GUxjAYkkddB/Nlu0XZoPr33XmfDqjex/NZW7gKvEW8xm8xY/ZazqmPJn6aVWnIUp0RCheVGOW+qcCpoBTIF17lGshQlAy6s0ABR43S+UmVkfZayip8E81EQujwWJzZuivSoOIJutc0gDpKYpVGgaLzfyV7Z5+J5ynTfyT+GY/ktZz2clbO0bKz4Un7FZQKhTcE9SzLlKqFHVJuNF3yojZSvTcTqh06OXVG+LdVrvB3WGkwKXGioHyuPdAUp0t5WK7EZpUlAqOlaFNgLoTZwjEcNaRRs885iuwLYdg2grr8M3VZXia7DizMYYCo+mXBPVaQmAj0cON0cW+ghk1mBrHnfKUHCP4LcvJPeO0MtF5HQergsClVIY64Aa2ZPSJ+69fixxzD0eFRGX+osWDXYLcIJ110ErONYucRBNuUQsKtjy+u55Jj5RFyYvA/lamDrOc7No0X6naQO9uZPYx6M5ihrWqz1OGpgsAc48tHDnqUajhcRS+Q/FYbFhHG3/wCpHzDvdJ4DxRr25J6gk+8bBaVHxSmw8YJ34bm3IIn6VLVcLUqNF8gIkiOOOvKeyDhmNZLJMbWv6INHH03AZZa4i4dObf1/yiHFNbBzAH27QsaX4dE+wr6jwCw2bG/5ortq6AmxEHl6LLxOKDrtNm6t+91wVwWkg3FzsfRC9F9NXAVW6axpoe9/Ire8PeRWZyIdsOR38gvnHgHiDg/I43L3FpnUED2uvdYF5+KznJnvB/n3WHnizTdyz1jjKqXBL0KT5OYqz25Vt08wQPC66oEFjhqpmbCkxpY1JXYsUs5/JW+JKymQUVQupeyiaUEKNNsGShmg2PNXFIAaq7WAWmUvKZmI5/SMhCfQ2CfFLhXMFguJznGQrhSaQuMOIsVGYc6ApkUocTsuto7hZeawaRnOomdUV2F3T9PDwD1UbTAsUPxoojFcxxPRMUxAhaAoMmQo/Cg3WV40iiFC7LomG2ud0VlJhudlfEQ7RbkFQAeIqhkmOSMyAFdhbdE/RcFXiEcOGVV+Y2S+LxORhKOPZmI89+ofEC45BoCJ7i/0C8/4li8tBwa+MrSRaJPKdtgueO+INYYJu65G97D7rOeTUpvA0AtsDp72XfrKh1yjzODwpcQ652A0LjJt06la1WsWgt7ZjFogQAOvsAButHwXAyC4i4ENH5tf6rRo+DZ5tMX8/wAlY/rDfA89hsQ3Jydmkkdp/hExOLhoIJzGZ56m/pC9BT/S2YGbD3/NEd/6YaQLGwPmR+BY15UzS8Z5PDYlzhLiZaNTzC0MNj2vJa7i7+pjvcpqt+nXSQ3SY8jzTXhf6cF85g6/nqheRIeDAU2h3CDbUHeRa/590Y0HvbDWyQDJ7DdegwngDBcXK03YcMaYi+/Xr7qfkq6FZSPk2Cc4YgcwZ10Mj2t+Svp/gVYGpTPmfQ/crwuMwUYh8NiZ8jqPKQE94J4tlexxJEOGYba3StckDzD6wau6UxFWSq55EIbzdZemzynHvMLhVHsJN1xryNdFzemuwLPqZVTOQZ2VKhkgnRcrVbALHNrsqxr4g5qJUP8A+Ki1z0PZSqQ2BzhMPZv0slxh+HM50801NgJ+bQ/desgtPEEgRqLFdq4pzbNEygBoaSDc7JgjhBEGPVXZA85LSZykbJdznm82XK9aTBGuhRGukReZ0WX7A4zFEC/kujFy4T2VxSDmkRcJT+lJvF1z1y+B2HfishgmFT+vvAIXH0p4XieRS48JcHEgf6WG9/A7Ga73NALbjdCbj7wi08O+BYxF1yrQvIbbmjS0/XQNnWYiTB8kanUCVcyRfZWovMxlhZugo4x5vKwv1HXIAbN9VrXkj0Xkv1BW43X0tqvR4U9a7+G8vs874hhG1HBxMOby3HIhaGDotyFoETYf5Kz21Abep2Wn4U8ZzvZd9r2dss0sDhsrdBpvoALgdyfqtDDuAkdL8ydo6K1PDlzZj1MieQCM7DBnE6SSRMRM/kLxdr2enoLTMstYjbufXYBBw1aWOnXMBfzM9NAmjw0nEcItqb66eiSYMoM/3QPz80UyRd4EEjkB729IQQ4AjnEjt+W8lwGCdTMkfnqVStiGhwzDVuUHlF590M0adMkTljoI9rJqqARe4cII2No9UhgK4IBNpH5CYeyTrKY4Zfs83WweStJuNQdbfeErW/TeapLH5WOOZ7SNDuWL0GLoZYcDPuqYd4B8wPbZS6JunoKBDWtGwAAnWAIuUJ7+LWUpnJtsLotLKXATEhGnXDw66cO1Hu123XS1xFhtKHmE5Z3v1V/jFpJ16IU+kBZSe430XWBv7nDNyUfiiZA9955IZfqSJj7LNygppsbTAEkTuosqrUEmAuLX91+DyGKj2iIB005+SsGvc8ZnAtNgAIjklhTe9oBcJbpO/Q8jKphnl8AHKdgTewvbfsvQ9P8ACo9UcJkics+QHNApVGkjUZ5gaSd4QXMfDjnzcrctio6gS3OCf2lvKdHNHWSEPTpdmg/w4EZmuObdpNu4VHYZ7SSw5t4+qYwTXkNcRqBIm95gnpCedSymReAbd4P0K6S9iZlFj4ktIJmR25IrJBManQLRrU5AIF/fsOqoGAOFuvnrdXGMBdlHaN5Uq1S0zlnYgcijB2Y3sOm8IXiHiVOizPUexkn9zgPITqVQYUaHgHK4OBv1E7JZlZ+fJlzCLkbHktLAYpjgSDZ176joSox7BdpbrJHPaZTxIWbRBsSZHMK9Og0gncFHrYoAGwkie6Sb4iBfII0Jm0oeFTLSCYjCzcHzXz3xlwzvaf7ivcYrxUBji3YH1XzXH4iSSTckknutePPF0UvwRcS09FoeD14eBzsFlYmrIVPDcXlqNvvHYLtpDln0mli4DW6mZ6BNuOaL7kj2MlYRrgAuG4AHfMJ9h7LRoEmJ0gk+kyvHvM0erLqH6tHgvdoIFtI3PuVl/GygtcZAIg9L/QWXoKNbNTgD5h9ll4nBAAEax9EPP4K1+iIrwYA5k9gCLdbe6DintDCTeIsLn81SWJxRDifL7LmGBJAP7jJ+l/zdSSFsfp4ww2G2IjT0I8lq4dxcLmCEozw9sAsJB9jFr8kw5jgM2l1NgL+I14hs6lCwmGIMkyNkriWue+dhboQnhawOmn8K4/So9TaDcTIGnMIYe4OuJi/ZGpUSQDLRAsSbzE6C6tVGsOsBBj5TOxnqvPvPdPHrttild+YhwB1uND3UqOiJddpnuNL+SZw9FkOAEjbpzCQxEZ9MtiSLmwvv091y1mKgExL5cC0iQWz7T7LtGrDnjW6A/ClrJaS4k5gYuQdZRqGFMkuJEG4PLU97LHHVL4ULm8vdRGzNOjfcKK4lB/PAeOoyDUAQJI5aFQhovMum1huLxvMD6pNz8gJJMwCJ5RoOY+yLTqHM0z3AE210Gthqeeq+hzX+k2NsrMdBsAHWBO9tOetwrta3SMv7soMidoHqsXFS9j20uB5zZHF3ETrA2AJgee6H4ZiXvp0nOPG9hzuA/cALnmfuVcv0e5T0LasPnKTExAMdJhM1sZmayBzDtoI9josj+pLyaYgB1hGgJk2d/rREwz2taWG7pnQ6gQXddk52rA5GpVeSWROskCe8exValfMXQYGYCw/tBzetkJmK4m9r9BEzPPTTmgU2vHzGAHEDkJ0tH1+66ckNGKzoBcwnJoTFmgideVlhP8Ba+s+s+HOyANaQCJ1DxOkhbPx3SGuDckzw+568lerDoDRa402FgrkvhcjMZwNgWIJAvIJ5QpiMVlAjYCDPW8qzsI5wMEWjcAaXvruq4jw98AWJE7iDF7DYEmPdPPoKLY2uZJD7QDGYGA4SLcllYzG5WgEmJAO+s3hbTPDXESfmDS2LQ7icQD/+Yvt5JKp4BVzgl2VhbmIa7YnnuVl9qk6Ydaq6P3XGpmPJefxlN15jzXt8Z4PldIabACZ3kg9jEQO6yfFv01VFUMMhjnQXNAMDiu6TyAsN3AdV1zxWZTWXEeHrViUGk1xfb5gC7sAM0+l5Xtq/6ayxkdnyU3Z35QM7wZLW3sBmOxzZDcCJzsR+mn/ENVhyvdSe/Ju3O0sBYP8AjmAjvpC1zUBsd8Ax+djemp/herwDwWGdCI8iIgLyPh2E+GRAyiOMXEODsstB0FwIGlua28FVcHRsCfqP5XHes6PR4+10eiwj8jQLCI8un+E2cr2mRrJ/lY7X2/PJM06uQA7CJHS8/ZYyb0eU8dwjqVUWJadD12Hr9E9hG8EauLpnp+H2Wn404fDAdqHCO829YKSwzDkkCwcPtHuD6J0oiy6M0HENE7A+/wDmV1+KOUybCf8AadZh81jYxE+W/nmSuJwBfwaXBN9RuAef3XJNtmtPKRi1/FGtIA1jYbFN+H5nEOgmSCLdYPdEw36ZcBmBBJZBaZEhwIjSQQQzyK3cPgxRaGwbHpb5df7TeDC222cdaSXRyq1wDcrgL8RiZEwfO4CEylIEgX+YdyPRPU8K5pFjBN7WBMuP0HmjuoPvDb2FrX79EcacqZmEpcZyRuHNJMlwsYnoUwyjxAH+4Bw5t3adra9YTT6JIdLbzA1nNOh6HSyOxpAEtzSfUmQTPJSwh6plDBuZEQXTI3Aa4kZDFidNNFKdAl92uALTeZAMgRBgnU6p5zoc0WytbvO0bazN+aG6tYXAmCbk3METGltuquOV8LoE7wp8mIiTFhz7qJzPmvmN1E/zyEPPOJPC1sw2xJBkkTcFdztmAJdEk9LGJ05KnxXhsuEOIIbpYfKO9pKI2co5FpMCL7W9B6rlW2cTjRAe0SZguORoaAQDIvMhtkes2WhjRoA5saRFj6bdletTywHH5hDRacpDgJG2/oFHNazKANW5QZM2Jb2sLeS2112dK5AeGp5rwQwzaRwmxE72+VHpOfmc8tsQA0Re0EQTpe3kiYRzWuFhMcV9NCbaa39FZ2bSDmHCdYtJsNxdCyvbMrJdrP8AyTBgtuBzgSCNjpfqqtxRc539pJg2gQRrygQPRca8iQeWUjd0gR10t5JuqwFgHDAMERMuNxfuNOnRbeb6Y8TPpUxaYtm04raCNdITzGljjJdDiGtgCCMoOb/1M/eUvRIZwgAky59hqbyeQ6fdN5ycpdEaNkRGsxFwbaKyoKX4Vdg2EgjUOsCc2sZHG/UHzQWOLSQdmvIJI/uGl+seQTuHpweLWWhp7XHcgNUd4aHTrMFpO4hzT75bjutPLfaISoOtYSHBuSdZ14uRuPdaVGne9wW3EQcxykOkbCECqDLXNiALgstDTlLo+3dOMeZDrBtiDz3sPVazmBBJtLM7KRZovrEtLTv3P8oONpnieACc5dG4ZJEjnY/m7mBqEwIP+Cbg9gQEanSYDOWSHOAJF4lsjsXNA7BXGqC1DIwFNrhxG4GWIIgmwtoRAJhcbhTkIOZozOIlskNyy6NwNfT03P6UZwREnUaxY++YC/RVZSIEG8kuO5AcAIB9U8C6PE43BuNdrAyWPD7iJECmy/XR8RqBylXZ4S9roIkkzoTYgWJ2dOYRG3NesrMyuOQSdRzEy3N3iRPVBdSDeMjM4TlJ0aCQ23MZgIHMlTyn0bzp59GTTwgAl1idZ56j6FN/0wc59hw8TOERDbCTFxGk8gnKuHmS6LCTEAQdvsksFVc7PnBIJEgHrMztGvkjOeJrW3oUf4OyqCWvcXF0kEEkuZYGNtSNN0xh/DyzhdaTJMa6WtuXbLZpBosyABeBbkCeupWY9z3PkgBoJudAQ4gRzMfZLM1lMKzM0G+37ZlpTmHweYAjnBJAgFsEPE6Xn/siU6Dmy+bHPAAsQQ0tMeTrdUQxGUSBqBzN9vPRSyl7LWmwDqcjhvqTwmDy1H/GVzDkkQdZ3A25+WW1v5ZaCCbGC4kjUzzJ8vdDwjAJJdBJM8yY4RforiZBMM1IBsAc4zCQYvw8uVkdmIHCZA0AJO7o3nchA+DaSQDFyCA4kW4QOw9Es6wDmkANPD0MEC3mQjsTQc0CekE3m8nXzPuuhzgGwcwbIJt6mfPTos8PJcZ0LSbEG9o+6OyobktgG2vl5CEoocAYcxOsuHlch0dYQaVFoIaRDTBB24rR1hMzGsBxiTGsSo8nUmRaOdpP1VxRFJH9o/6tNttuSiG7MP3e53uojsYIMwDHvmJZlygDWBO/SCpUpFhADRlbw2uGhoEnvOy0GZWNDQT8oA89ULEuubzeYm07+quGYY4oEzC54k2g3FzzbHLS6NWoAHY7+U6+plNCo2GlouJnrzHZKua4ku0BGnIAq4oaweFYC6Twt02kutb0E2TVSiA4G2hLTFwbHX1SuIw5c/MDEAEchJI9YR6LCHQZOYmSdgBYKSKiwqA1SNCWgRa/Iz6p2iA5nY69OvKyCMO0lzgJIECdwF2nRgAyBoY6Dn1VBYywtIJYBc5jp6geRVWvOrthBEA2M6nSf5Uoshlhe5v1RqdBphwFzc9ilJg4XqPAAkDpGgB77kyg4io4EgGAb893fc+yaBABt5FArsi5I/3/ALWoQQuBAy2Iabjexn3lcZIEHQtgXzAC5mTeboVKoA4kwBFkF1ZrG9OSgGG0w2TmiC0gbG0a9Y2V2sj9+1htOt/f1SDMUHyI1FkpVxFRt4kDVRGy6qANxefOV0YmYiwECOiQFYubOg25rmGqBolxvyURpnECRmABIgIjC0sMDi2HXnPustmJabETKq8uZYOjeyqQ58Zolh1gB3WLotJrbAWB1690hQpzxA95R2anZHZFRTawGDBvACvQIdOa0EHWyrVICW+KYsLbhAjtXFAOgaETPsjhzQ4OHIeqyHVgYboe3si1pbkFru9gN1JspRtrJLmk8JJM/bqq1KTQQBrcz5WSIfxbkDabd0TFEwJcJInrChGHAOaLmRqdLm+y6WNBvcQJ6nYpKjmF83YIra4OYOSP0NWqNbBAEkR0vzQmvkDkBfulnukQPlnXqq1XkTCAHZcSCYjQfyrvZe7oHJIUMxI1nVGxNRxggWBUIXIOaiW+G4qKgCZJdxSZBlFdTmHm/MKKJJhm4oj6eqIDsTrK4ooC7cRE8txGvJdo4hw1AgAj1UUSQnUxmQw3sqMrkO1mVxRQDwrODbaHVHpG0KKKQsA8uaTLihNx4daCoooCzXZjJtGyWdWLmuJEDbsoooS1IQASfJWrYoubEeaiiyXwSpPcDczCcZRLzxWEbLii0yRdzRTIAumBVvPNRRADDYHSUJ7iDJNgooohf4pd0lFw+p6aqKIEKxuYSANUPUmdtFFFEDota076KPpszSZzRDegUUSR0jL12QMTScYaCuqLLEZp08rWja89ShseDmEXUUUxDF1p3VX1YIHRRRIM7ldzUUUUJ//Z">
+                <figcaption>Oryctolagus Cuniculus</figcaption>
+            </div>
+        </figure>
+    </div>
+
+    <div id="sommaire">
+        <h2>Sommaire:</h2>
+        <ol>
+            <li>Caractéristiques</li>
+            <li>Les points forts et les points faibles du lapin</li>
+            <li>Les différentes races</li>
+            <li>Leurs mode de vie</li>
+            <li>L'alimentation</li>
+            <li>Petite présentation de ma lapine</li>
+        </ol>
+    </div>
+
+    <div id="caracteristique">
+        <h3>Caractéristiques:</h3>
+        <div><span>Longévité:</span> entre 6 et 12 ans</div>
+        <div><span>Poid:</span> entre 1 et 2 kilos à l'age adulte</div>
+        <div><span>Son régime alimentaire: </span> herbivore strict</div>
+        <div><span>Caractére:</span> Animal craintif avec du tempérament: établir une relation de confiance avec lui
+            demande de la patiente. <br>
+            Calin et affectueux: il aime le plus souvent les caresses. Attention, certain lapin sont moin friands de
+            contacts mais peuvent vous surprendre par leur espièglerie. <br>
+            Discret et facile à vivre.</div>
+        <div><span>Ses besoins:</span>Animal sociable, le lapin est en demande d'interaction.<br>
+            Il apréciera notamment de partager son espace avec des congénères. <br>
+            Il a besoin d'espace, de longues sorties quotidiennes et idéalement de vivre en liberté. <br>
+            Il lui faut un environnement adapté à ses besoins naturels et riche en distactions.</div>
+        <div><span>Maturité sexuelle: </span>entre 4 et 8 mois</div>
+        <div><span>Portée:</span>Entre 2 et 10 laperaux</div>
+        <div><span>Coût:</span> 20 à 30 euros en animalerie et 80 à 100 euros en élévage</div>
+    </div>
+
+    <div id="lesaviezvous">
+        <h3><strong>Le saviez-vous?</strong></h3>
+        <p>Contrairement à ce que l'on crois le lapin n'es pas un rongeur mais un lagomorphe. <br>
+            La diférence avec les rongeurs c'est que chez le lapin, ce sont toutes ses dents qui poussent en
+            continue. <br>
+            Ses molaires poussent de 2 à 3 mm par mois et les incisives au ryhtme de 2 à 3 mm par semaine.
+        </p>
+    </div>
+    <div class="lsv">
+        <img
+            src="https://www.santevet.com/upload/admin/images/article/_old/NAC/Fiches_conseils_JF_Quinton/Les_dents_du_lapin/.SanteVet_-_fiche_conseils_les_dents_du_lapin_-_NAC__-_dessin_extrait_du_livre_du_Dr_JF_Quinton__-_Soins_du_lapin_de_compagnie__-_editions_Ulmer_s.jpg">
+    </div>
+
+    <div>
+        <h3>Les points forts et les points faibles du lapin</h3>
+        <table>
+            <th>Points forts</th>
+            <th>Points faibles</th>
+            <tr>
+                <td>
+                    <ul class="table-liste">
+                        <li>Attachant, drôle et affectueux</li>
+                        <li>Capable de développer des relations enrichissantes avec toute la famille</li>
+                        <li>Facile à vivre, rarement agressif</li>
+                        <li>Propre et peu bruyant</li>
+                        <li>Beau et fascinant à observer</li>
+                        <li>Espace de vie compatible avec tout type de logement</li>
+                        <li>Adaptation aisée au rythme de sa famille</li>
+                        <li>Durée de vie longue, entre 6 à 12ans </li>
+                        <li>Possibilité d'un quotidien sans cage et de fonde son habitat dans votre intérieur mais peut
+                            aussi en cas de besoin vivre en espace clos</li>
+                        <li>Facile à satisfaire une fois ses besoins compris</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="table-liste">
+
+                        <li>Risques d'allergie (aux poils du lapin mais aussi au foin)</li>
+                        <li>Santé fragile, prévoir un budget pour d'éventuels frais vétérinaire</li>
+                        <li>Besoins de soins et d'interactions au quotidien, anticiper les périodes de vacances</li>
+                        <li>Couts liés à l'adoption (stérélisation et caccination)</li>
+                        <li>Adaptations necessaires de l'habitat pour limiter les dégats et accidents possibles dans la
+                            maison</li>
+                        <li>Contrainte du nettoyage régulier de l'espace de vie et de la litiére pour éviter l'odeur
+                            d'urine</li>
+
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div>
+        <h3>Les différentes races</h3>
+    </div>
+
+    <div class="categorie">
+        <p>Il y a 3 grandes catégories:</p>
+    </div>
+    <div id="racelapin">
+        <div class="carte">
+            <p>Les lapins nains</p>
+            <img src="https://t2.ea.ltmcdn.com/fr/posts/6/6/5/races_de_lapins_nains_2566_600.jpg">
+            <a href="racelapinnain.html">Découvrire toutes les races</a>
+        </div>
+        <div class="carte">
+            <p>Les lapins taille moyenne</p>
+            <img src="https://www.lapinheureux.fr/wp-content/uploads/2022/06/lapin-belier.jpg">
+            <a href="racelapin.html">Découvrire toutes les races</a>
+        </div>
+        <div class="carte">
+            <p>Les Lapins Géants</p>
+            <img
+                src="https://www.fermedebeaumont.com/img/cms/univers/lapin/lapin-geant-papillon-francais-de-race-vente-elevage.jpg">
+            <a href="racegéants.html">Découvrire toutes les races</a>
+        </div>
+    </div>
+
+
+    <div class="mdv">
+        <h3>Leurs mode de vie</h3>
+        <p>Pour une bonne installation de l'espace de vie de votre lapin: <br>
+            - Il faut qu'il soie dans un espace calme avec pas trop de passage. <br>
+            - Votre lapin affectionnera certes un espace au calme, mais pas trop isolé; il a besoin de solicitations et
+            de participer à la vie familiale. <br>
+            - Le lapin es très sensible aux courants d'air, donc ne pas l'installer près d'une fenetre, d'une porte et à
+            coté d'une clim. <br>
+            - IL es aussi très sensible à la chaleur et au froid, il faut toujours veillier que la temperature de la
+            pièce ou il se trouve soie comprise entre 15 et 21°C. <br>
+            - Le lapin a besoin de dévelloper une musculature puissante pour renforcer sa structure osseuse et en
+            conséquence d'un espace suffisant pour bouger, courir et bondir chaque jour. <br>
+            Pour cela, opter pour une vie soie en liberté ou semie liberté. Si vous choissisez la vie en semie liberté
+            bannisez la cage et opter pour un enclos. <br>
+            Si vous ne pouvez pas le laissée en liberté il faudra réguliérement le sortir, maximum 4h par jour. <br>
+            Si le lapin ne sort pas assez il dévellopera des problèmes et des maladies articulaire et osseux. <br>
+            - IL est important, comme dans un terrier, de prévoir plusieurs zones définies comme un coin repos de
+            préférence caché, un coin activité avec un accès à des divertissements, un coin dédié à son ailentation et
+            enfin un coin avec sa litière.
+        </p>
+        <img src="https://rabbits.world/wp-content/uploads/2022/04/VIV0229.png">
+        <img src="https://m.media-amazon.com/images/I/51npFconqJL.jpg">
+    </div>
+
+    <div id="alimentation">
+        <h3>L'alimentation</h3>
+        <span>Le foin:</span><br>
+        Le foin es la base de l'alimentation du lapin, pour bien le choisir il doit etre bien sec, bien vert, avec
+        une bonne odeur d'herbe fraiche et non pussiéreux. <br>
+        Ses fibres ont un role important pour maintenir un bon équilibre digestif. Elles aident à prévenir les
+        risques de ralentissement du transit très dangereux pour le lapin, d'occlusion et de constipation. Elles
+        interviennent aussi dans les épisodes de diarhée. <br>
+        Les grains de silice contenus dans les brins d'herbe ainsi que l'effort masticatoire pendant la consommation
+        du foin permettent une usure régulière des dents. <br>
+        Un foin de qualité séché au soleil permet un apport de vitamine D bénéfique au métalolisme du lapin. <br>
+        Sa consommation en continu par un lapin applique à sélectionner les meilleurs brins pour ensuite longuement
+        macher lutte contre son ennuie. <br>
+        <img
+            src="https://cdn.shopify.com/s/files/1/0607/2428/1519/products/2_cca5e387-fc8d-4ef8-bafa-421707c740bd_x230@2x.png?v=1663744722">
+        <br>
+        <Span>Les granulés:</Span> <br>
+        Les granulés sont un complément à l'alimentation du lapin. En fonction du gabarit de votre animal une
+        cuillière a soupe par kilos et par jour suffit. <br>
+        Evitez de prendre des mélanges de graines et étudier les informations sur le paquet de granulés. Ils doivent
+        pas contenir de subtances animales (graisses, farine ou laits) et pour etre adaptés au besoins du lapin,
+        contenir près de 20-25% de fibres, 10-15% de protéines et 0,6-0,9% de calcium. <br>
+        Conservez les granulés dans un récipient hermétique protégés de l'air et de la lumiére. <br>
+        <img src="https://aucomptoirdenoe.fr/2593/granules-pour-lapins-cuni-adult-cuni-adult.jpg">
+        <img
+            src="https://shop-cdn-m.mediazs.com/bilder/jr/farm/grainless/complete/pour/lapin/nain/5/400/28140_pla_jrfarm_grainless_complete_zwergkaninchen_5.jpg">
+        <br>
+        <Span>Les légumes et la verdure:</Span><br>
+        La règle d'or est d'introduire progressivement légumes et plantes en surveillant la transit du lapin. <br>
+        Préparez une assiette quotidienne en proposant à votre compagnon des légumes et végétaux avec des feuilles
+        vertes, frais (pas de surgelés, ni de conserve), lavés, séchés, pas trop humide et servis à température
+        ambiante. <br>
+        Ce sont des sources de fibres, de vitamines et de minéraux. De plus, la consommation des végétaux et légumes
+        frais favorise une bonne santé dentaire et maintient l'équilibre du transit en apportant l'eau nécessaire au
+        fonctionnement digestif. <br>
+        Le lapin ingère en se toilettant beaucoup de poils et parfois des morceaux de carton rongé ou des fibres de
+        tissu, c'est l'apport quotidien en légumes et verdure qui permet leur évacuation en hydratant le contenu
+        digestif. <br>
+        <img src="https://rabbits.world/wp-content/uploads/2021/05/guide_nutriscrore_paysage-FR-Page-1.jpg"> <br>
+        <span>L'eau:</span> <br>
+        L'eau doit etre propre et renouvelée réguliérement, si possible pauvre en calcaire pour éviter la saturation
+        de ses reins et de sa vessie et doit etre à disposition constante de votre lapin. <br>
+        Optez pour une gamelle et non un biberon, elle permet le respect physiologie de votre lapin et favorise la
+        prise de boisson. <br>
+        <img src="https://www.wanimo.com/images/lapin/P/4B/P4BAA01/700x700/01/gamelle-en-gres-zolux.jpg"> <br>
+        <Span>Les friandises:</Span> <br>
+        Le role des friandises est de renforcer le lien avec votre lapin, elles n'ont aucune utilité dans son régime
+        alimentaire. <br>
+        Les friandises industrielles ne sont pas du tout adaptées aux besoins des lapins. <br>
+        Les friandises à proposer: <br>
+        - Des fruits et légumes frais ou déshydratés; <br>
+        - Des fleurs et plantes séchées. Attention toutefois à ne pas offir une grande quatité de végétaux
+        déshydratés pour ne pas assécher et pertuber le transit. <br>
+        Les friandises à proscricre: <br>
+        - Chips, pains, sucrerie, chocolat, batonnets de céréales et fruits secs, produits laitiers, lentilles et
+        graines. <br>
+        <img src="http://2.bp.blogspot.com/-BKMancC7g0Y/Um5VN00a-KI/AAAAAAAAQlQ/oPs_yiZY1Bw/s1600/P2960598.jpg">
+    </div>S
+
+
+    <div>
+        <h3>Petite présentation de ma lapine</h3>
+        <img id="imagerhea" src="./img/rhea.jpg">
+
+        <span>Nom:</span>Rhéa <br>
+        <span>Surnoms:</span> choupette, petit monstre, boule grise <br>
+        Sexe: femelle <br>
+        Age: 2 ans et demie <br>
+        Race: lapin bélier nain <br>
+        Couleur: feu fhée <br>
+        Caractére: pot de colle, suceptible, caline, curieuse, fourbe. <br>
+        Ce qu'elle aime: les calins, les bisous, embéter sa maman, faire des betises, avoir de l'attention, la
+        bouffe et dormir. <br>
+        Ce qu'elle aime pas: ne pas avoir d'attention, qu'on l'ignore, etre seule et se faire couper les griffes.
+    </div>
+
+
+
+
+</body>
+
+</html>

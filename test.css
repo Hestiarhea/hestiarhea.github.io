@@ -1,0 +1,17 @@
+h3 {
+    color: blueviolet;
+    font-weight: bold;
+    font-family: arial;
+    filter: opacity(25%);
+}
+
+
+
+
+img {
+    transform: rotate(-10deg);
+    filter: blur(10px);
+    height: 400px;
+    width: 300px;
+}
+
